@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donation Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .qr-code {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .thanks {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2C9E42;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+
+            .thanks {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Add your QR Code here -->
+        <img src="https://github.com/Bharadwaj-R/Medley-CeNSE-2025/blob/main/Payments.png" alt="QR Code" class="qr-code">
+
+        <!-- Instructions for donation -->
+        <p class="text">Scan with any UPI app to donate</p>
+
+        <!-- Thank you message -->
+        <p class="thanks">Thanks for your generous donation!</p>
+    </div>
+
+</body>
+</html>
